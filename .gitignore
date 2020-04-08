@@ -1,0 +1,6 @@
+Thumbs.db
+.idea
+*.iml
+*.log*
+node_modules/
+build/
