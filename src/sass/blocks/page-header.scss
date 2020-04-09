@@ -1,0 +1,26 @@
+.page-header {
+  &__wrapper {
+    display: flex;
+    height: 55px;
+    align-items: center;
+    background: palegoldenrod;
+  }
+
+  &__aside {
+    width: 75px;
+  }
+
+  &__center {
+    margin: 0 auto;
+  }
+
+  &__nav {
+    display: flex;
+  }
+}
+
+@media (min-width: $width-tablet) {
+  .page-header__wrapper {
+    height: 67px;
+  }
+}

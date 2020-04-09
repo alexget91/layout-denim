@@ -1,0 +1,13 @@
+.nav-toggle {
+  width: 20px;
+  height: 15px;
+  font-size: 0;
+  background: url('../img/nav-toggle.svg') center center no-repeat;
+  border: none;
+}
+
+@media (min-width: $width-tablet) {
+  .nav-toggle {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.main-nav {
+  display: none;
+
+  &__link {
+    margin-right: 35px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: $width-tablet) {
+  .main-nav {
+    display: flex;
+  }
+}
